@@ -123,7 +123,8 @@ body {
 .chart-container {
   width: 100%;
   max-width: 28rem;
-  height: auto;
+  height: 400px; /* Fixed height for chart */
+  position: relative; /* Needed for Chart.js positioning */
 }
 
 /* Stats Container */
@@ -361,7 +362,7 @@ body {
 /* Responsive Design */
 @media (max-width: 767px) {
   .chart-container {
-    height: 300px;
+    height: 350px; /* Slightly larger for mobile */
   }
 
   .stat-value {
