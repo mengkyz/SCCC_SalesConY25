@@ -103,3 +103,5 @@ const rawData = parseMindsetCSV(rawCSVData);
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = rawData;
 }
+
+//
